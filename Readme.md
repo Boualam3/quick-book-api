@@ -70,8 +70,8 @@ Add a new book.
 
 ```json
 {
-  \"title\": \"Atomic Habits\",
-  \"author\": \"James Clear\"
+  "title": "Atomic Habits",
+  "author": "James Clear"
 }
 ```
 
