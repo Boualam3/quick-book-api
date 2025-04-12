@@ -2,7 +2,7 @@
 
 This is a lightweight Express.js REST API built with Sequelize and SQLite to support a **live search** feature on a landing page. It enables real-time filtering and sorting of book data as users type in the frontend.
 
-> ✅ Designed as a technical assignment for the Back-End Developer role at Fobs USA.
+> ✅ Designed as a technical assignment for the Back-End Developer role .
 
 ---
 
