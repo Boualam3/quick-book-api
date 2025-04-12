@@ -135,7 +135,7 @@ npm run dev
 
 Server will run at `http://localhost:3000`.
 
-Swagger at `http://localhost:3000/api-docs/`
+Swagger at `http://localhost:3000/api-docs`.
 ---
 
 This backend powers the **live search** experience on a frontend landing page, enabling real-time results filtering and sorting as the user types.
