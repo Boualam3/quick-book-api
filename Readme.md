@@ -1,4 +1,4 @@
-"# 📚 Book Search API
+# 📚 Book Search API
 
 This is a lightweight Express.js REST API built with Sequelize and SQLite to support a **live search** feature on a landing page. It enables real-time filtering and sorting of book data as users type in the frontend.
 
@@ -27,7 +27,7 @@ This is a lightweight Express.js REST API built with Sequelize and SQLite to sup
 
 ## 📁 Project Structure
 
-\`\`\`
+```
 ├── models/
 │   └── Book.js          # Sequelize model
 ├── routes/
@@ -40,7 +40,7 @@ This is a lightweight Express.js REST API built with Sequelize and SQLite to sup
 │   └── data.js          # Sample/mock data 
 ├── server.js            # Server entry point
 └── README.md            
-\`\`\`
+```
 
 ---
 
@@ -58,9 +58,9 @@ Search and sort books live.
 
 **Example:**
 
-\`\`\`
+```
 GET /api/books?q=harry&sortBy=title&order=ASC
-\`\`\`
+```
 
 ---
 
@@ -68,12 +68,12 @@ GET /api/books?q=harry&sortBy=title&order=ASC
 
 Add a new book.
 
-\`\`\`json
+```json
 {
   \"title\": \"Atomic Habits\",
   \"author\": \"James Clear\"
 }
-\`\`\`
+```
 
 ---
 
@@ -106,7 +106,7 @@ Validation is handled by [Zod](https://zod.dev/):
 
 ## 📚 Sample Book Schema
 
-\`\`\`js
+```js
 {
   id: number,
   title: string,
@@ -115,7 +115,7 @@ Validation is handled by [Zod](https://zod.dev/):
   createdAt: Date,
   updatedAt: Date
 }
-\`\`\`
+```
 
 ---
 
@@ -123,15 +123,15 @@ Validation is handled by [Zod](https://zod.dev/):
 
 1. **Install dependencies:**
 
-\`\`\`bash
+```bash
 npm install
-\`\`\`
+```
 
 2. **Start the server:**
 
-\`\`\`bash
+```bash
 npm run dev
-\`\`\`
+```
 
 Server will run at `http://localhost:3000`.
 
