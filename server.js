@@ -23,6 +23,10 @@ app.use(
 
 app.use("api/books", require("./routes/books"));
 
+app.get("/", (req, res) => {
+  res.send("Welcome to the Home Page!");
+});
+
 const PORT = process.env.PORT || 3000;
 app.listen(PORT);
 
